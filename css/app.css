@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800;900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+		.box{
+			    background-color: #2b3674;
+			    color: white;
+			    width: 650px;
+			    padding: 80px 65px;
+			    border-radius:0;
+			    margin-left: auto;
+			    margin-right: auto;
+			   margin-top: 50px;
+				box-shadow:  20px 20px 60px #00000054; 
+						
+		
+		}
+h1{
+	font-size:45px;
+	font-weight: 900;
+}
+img{
+    max-width: 100%;
+    border: 10px #fcd206 dashed;
+}
+.box p{
+	font-size: 22px
+line-height:1.5;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    /* padding: 50px; */
+    /* background: #0db148; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.product{
+
+padding: 30px;
+
+flex-basis: 33.33%;
+
+}
+
+.green{
+
+background: #0db148;
+}
+
+.yellow{
+	
+background: #fcd206;
+}
+
+h3{
+	font-size: 25px
+}
+
+strong{}
+
+h3 span{    font-weight: 300;
+    text-decoration: line-through;
+    font-style: italic;
+    font-size: 20px;
+}
+
+button{background: #0db148;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+    border: 2px solid;
+    border-radius: 30px;
+    cursor: pointer;}
+     
+     button:hover{
+     background: #ff000000;
+     color: #0db148;
+
+     }
+
+     product-box{
+
+     }
